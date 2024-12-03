@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.proyek2.statusController">
+   <children>
+      <Label layoutX="205.0" layoutY="14.0" text="status pengiriman">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnbackstatus" layoutX="63.0" layoutY="324.0" mnemonicParsing="false" onAction="#btnbackstatus" text="BACK HOME">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+      <Label layoutX="40.0" layoutY="92.0" text="tanggal pengiriman" />
+      <Label layoutX="217.0" layoutY="92.0" text="material" />
+      <Label layoutX="348.0" layoutY="92.0" text="jumlah" />
+      <Label layoutX="477.0" layoutY="92.0" text="nama pembeli" />
+      <TextField fx:id="txttglpengiriman" disable="true" layoutX="14.0" layoutY="153.0" prefHeight="25.0" prefWidth="144.0" />
+      <TextField fx:id="txtnamamaterial" disable="true" layoutX="181.0" layoutY="153.0" prefHeight="25.0" prefWidth="115.0" />
+      <TextField fx:id="txtjumlahmaterial" disable="true" layoutX="309.0" layoutY="153.0" prefHeight="25.0" prefWidth="115.0" />
+      <TextField fx:id="txtnamapembeli" disable="true" layoutX="441.0" layoutY="153.0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.proyek2.topcustomerController">
+   <children>
+      <Label layoutX="217.0" layoutY="34.0" text="Top 3 customer">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <TableView fx:id="tblvtopcustomer" layoutX="87.0" layoutY="100.0" prefHeight="200.0" prefWidth="433.0">
+        <columns>
+          <TableColumn fx:id="tblvnamapembeli" prefWidth="217.0" text="Nama pembeli" />
+          <TableColumn fx:id="tblvjumlahpembelian" prefWidth="213.0" text="Total penjualan" />
+        </columns>
+      </TableView>
+      <Button fx:id="btnback" layoutX="45.0" layoutY="337.0" mnemonicParsing="false" onAction="#btnbackadmin" text="BACK" />
+   </children>
+</AnchorPane>

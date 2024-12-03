@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.proyek2.list_materialController">
+   <children>
+      <Label layoutX="219.0" layoutY="34.0" text="List Material">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnbacklistmaterial" layoutX="63.0" layoutY="348.0" mnemonicParsing="false" onAction="#btnbacklistmaterial" text="BACK" />
+      <TableView fx:id="tableviewlistmaterial" layoutX="29.0" layoutY="111.0" prefHeight="200.0" prefWidth="546.0">
+        <columns>
+            <TableColumn fx:id="tblvlistidmaterial" prefWidth="113.0" text="ID" />
+          <TableColumn fx:id="tblvlistmaterial" prefWidth="93.0" text="Nama material" />
+          <TableColumn fx:id="tblvlistdeskripsi" prefWidth="185.0" text="Deskripsi" />
+            <TableColumn fx:id="tblvlisthargamaterial" prefWidth="154.0" text="Harga" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

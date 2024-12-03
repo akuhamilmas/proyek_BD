@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.proyek2.topbulanController">
+   <children>
+      <Label layoutX="185.0" layoutY="40.0" prefHeight="17.0" prefWidth="247.0" text="Total penjualan perbulan">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnback" layoutX="64.0" layoutY="320.0" mnemonicParsing="false" onAction="#btnbackadmin" text="BACK" />
+      <TextField fx:id="txtbulan" disable="true" layoutX="102.0" layoutY="181.0" />
+      <Label layoutX="102.0" layoutY="139.0" prefHeight="27.0" prefWidth="149.0" text="Bulan">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="273.0" layoutY="139.0" prefHeight="17.0" prefWidth="247.0" text="Total jumlah beli">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txttotaljumlah" disable="true" layoutX="273.0" layoutY="181.0" />
+   </children>
+</AnchorPane>

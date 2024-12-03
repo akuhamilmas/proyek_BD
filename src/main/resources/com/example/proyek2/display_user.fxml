@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.proyek2.display_userController">
+    <children>
+        <Label layoutX="220.0" layoutY="28.0" text="Form User">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Label>
+        <Label layoutX="104.0" layoutY="87.0" text="Nama Barang">
+            <font>
+                <Font size="13.0" />
+            </font>
+        </Label>
+        <Label layoutX="104.0" layoutY="138.0" text="Nama Suplier">
+            <font>
+                <Font size="13.0" />
+            </font>
+        </Label>
+        <Button fx:id="btnlihatmaterial" layoutX="29.0" layoutY="301.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="51.0" prefWidth="114.0" text="Lihat material" />
+        <Button fx:id="btnlihatsuplier" layoutX="475.0" layoutY="301.0" mnemonicParsing="false" onAction="#handleButtonlihatsuplier" prefHeight="51.0" prefWidth="106.0" text="Lihat suplier" />
+        <ComboBox fx:id="cmbnamabarang" layoutX="227.0" layoutY="84.0" prefHeight="25.0" prefWidth="248.0" />
+        <ComboBox fx:id="cmbnamasuplier" layoutX="227.0" layoutY="135.0" prefHeight="25.0" prefWidth="248.0" />
+        <Button fx:id="btnorder" layoutX="245.0" layoutY="215.0" mnemonicParsing="false" onAction="#handleButtonorder" prefHeight="25.0" prefWidth="106.0" text="Order" />
+    </children>
+</AnchorPane>
